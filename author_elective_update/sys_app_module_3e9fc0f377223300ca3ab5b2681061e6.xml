@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="t1">729fc0f377223300ca3ab5b2681061e3</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>t1s</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sn_sand5_t1</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>sn_sand5.t1_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 14:09:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e9fc0f377223300ca3ab5b2681061e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>t1s</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="sand5" source="sn_sand5">a1484cb377223300ca3ab5b2681061ce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sand5">a1484cb377223300ca3ab5b2681061ce</sys_scope>
+        <sys_update_name>sys_app_module_3e9fc0f377223300ca3ab5b2681061e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 14:09:41</sys_updated_on>
+        <timeline_page/>
+        <title>t1s</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="sand5">a1484cb377223300ca3ab5b2681061ce</application>
+        <file_path/>
+        <instance_id>evosandbox8080</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_app_module_3e9fc0f377223300ca3ab5b2681061e6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="t1">729fc0f377223300ca3ab5b2681061e3</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>t1s</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sn_sand5_t1</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>sn_sand5.t1_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-07-16 14:09:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3e9fc0f377223300ca3ab5b2681061e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>t1s</sys_name><sys_overrides/><sys_package display_value="sand5" source="sn_sand5">a1484cb377223300ca3ab5b2681061ce</sys_package><sys_policy/><sys_scope display_value="sand5">a1484cb377223300ca3ab5b2681061ce</sys_scope><sys_update_name>sys_app_module_3e9fc0f377223300ca3ab5b2681061e6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-07-16 14:09:41</sys_updated_on><timeline_page/><title>t1s</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1752322631</payload_hash>
+        <record_name>t1s</record_name>
+        <reverted_from/>
+        <source>25488cb377223300ca3ab5b268106172</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 14:09:41</sys_created_on>
+        <sys_id>729fc0f377223300ca3ab5b2681061ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16bfb1e16220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 14:09:41</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ba9fc0f3ac223300cfe71f3addd3a7e9</update_guid>
+        <update_guid_history>ba9fc0f3ac223300cfe71f3addd3a7e9:1752322631</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="t1s">0001d03777223300ca3ab5b26810618d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 14:15:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>064f92eabe1446e0843869deb6201890</sys_id>
+        <sys_metadata>3e9fc0f377223300ca3ab5b2681061e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>t1s</sys_name>
+        <sys_package display_value="sand5" source="sn_sand5">a1484cb377223300ca3ab5b2681061ce</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="sand5">a1484cb377223300ca3ab5b2681061ce</sys_scope>
+        <sys_scope_delete display_value="">2ff3db85b32c4460950ea204d5894ac4</sys_scope_delete>
+        <sys_update_name>sys_app_module_3e9fc0f377223300ca3ab5b2681061e6</sys_update_name>
+        <sys_update_version display_value="sys_app_module_3e9fc0f377223300ca3ab5b2681061e6">729fc0f377223300ca3ab5b2681061ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 14:15:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
