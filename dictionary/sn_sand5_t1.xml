@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="t1" max_length="40" name="sn_sand5_t1" type="collection">
+        <element choice="1" label="ChcList" max_length="40" name="chclist" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Blue" value="blue"/>
+                <element inactive_on_update="false" label="Green" value="green"/>
+                <element inactive_on_update="false" label="Red" value="red"/>
+            </choice>
+        </element>
         <element label="col1" max_length="40" name="col1" type="string"/>
         <element label="Col3" max_length="40" name="col3" type="string"/>
     </element>
