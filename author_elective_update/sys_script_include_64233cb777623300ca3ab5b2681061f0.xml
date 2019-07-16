@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_sand5.xd1</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>xd1</name>
+        <script><![CDATA[var xd1 = Class.create();
+xd1.prototype = {
+    initialize: function() {
+    },
+
+    type: 'xd1'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 16:44:58</sys_created_on>
+        <sys_id>64233cb777623300ca3ab5b2681061f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>xd1</sys_name>
+        <sys_package display_value="sand5" source="sn_sand5">a1484cb377223300ca3ab5b2681061ce</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="sand5">a1484cb377223300ca3ab5b2681061ce</sys_scope>
+        <sys_update_name>sys_script_include_64233cb777623300ca3ab5b2681061f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 16:44:58</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="sand5">a1484cb377223300ca3ab5b2681061ce</application>
+        <file_path/>
+        <instance_id>evosandbox8080</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_script_include_64233cb777623300ca3ab5b2681061f0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;sn_sand5.xd1&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;xd1&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var xd1 = Class.create();
+xd1.prototype = {
+    initialize: function() {
+    },
+
+    type: 'xd1'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-07-16 16:44:58&lt;/sys_created_on&gt;&lt;sys_id&gt;64233cb777623300ca3ab5b2681061f0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;xd1&lt;/sys_name&gt;&lt;sys_package display_value="sand5" source="sn_sand5"&gt;a1484cb377223300ca3ab5b2681061ce&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="sand5"&gt;a1484cb377223300ca3ab5b2681061ce&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_64233cb777623300ca3ab5b2681061f0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-07-16 16:44:58&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-277463862</payload_hash>
+        <record_name>xd1</record_name>
+        <reverted_from/>
+        <source>ad7298b777223300ca3ab5b268106148</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 16:45:03</sys_created_on>
+        <sys_id>7223b0b777623300ca3ab5b2681061f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16bfbac54900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 16:45:03</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>8a23b0b76e6233003a74685dde1c0fef</update_guid>
+        <update_guid_history>8a23b0b76e6233003a74685dde1c0fef:-277463862</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 16:45:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>31da8e8d592648929e6f9e0959132b64</sys_id>
+        <sys_metadata>64233cb777623300ca3ab5b2681061f0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>xd1</sys_name>
+        <sys_package display_value="sand5" source="sn_sand5">a1484cb377223300ca3ab5b2681061ce</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="sand5">a1484cb377223300ca3ab5b2681061ce</sys_scope>
+        <sys_scope_delete display_value="">2ff3db85b32c4460950ea204d5894ac4</sys_scope_delete>
+        <sys_update_name>sys_script_include_64233cb777623300ca3ab5b2681061f0</sys_update_name>
+        <sys_update_version display_value="sys_script_include_64233cb777623300ca3ab5b2681061f0">7223b0b777623300ca3ab5b2681061f0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 16:45:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
