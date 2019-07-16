@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="customoutput2" label="customoutput2" language="en" table="var__m_sys_hub_action_output_5c6a98fb77223300ca3ab5b2681061bd">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>customoutput2</element>
+            <help/>
+            <hint/>
+            <label>customoutput2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_5c6a98fb77223300ca3ab5b2681061bd</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-16 15:02:21</sys_created_on>
+            <sys_id>1eabd43f77223300ca3ab5b2681061ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>customoutput2</sys_name>
+            <sys_package display_value="sand5" source="sn_sand5">a1484cb377223300ca3ab5b2681061ce</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="sand5">a1484cb377223300ca3ab5b2681061ce</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5c6a98fb77223300ca3ab5b2681061bd_customoutput2_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-16 15:02:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

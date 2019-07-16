@@ -13,18 +13,19 @@
         <ih_action>false</ih_action>
         <internal_name>foobar</internal_name>
         <label_cache>[{"name":"{{step[b2a980a5-4f5e-4f5a-a930-8978ac9b7a11].task}}","label":"step➛Create Task step➛Incident Record","type":"step","ref":"incident"}]</label_cache>
-        <latest_snapshot>586a98fb77223300ca3ab5b2681061b4</latest_snapshot>
+        <latest_snapshot>0aabd43f77223300ca3ab5b268106177</latest_snapshot>
         <master_snapshot>5c6a98fb77223300ca3ab5b2681061bd</master_snapshot>
         <name>foobar</name>
         <outputs/>
-        <state>draft</state>
+        <outputs/>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-16 14:54:49</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bfe9d0fb77223300ca3ab5b268106104</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>foobar</sys_name>
         <sys_overrides/>
         <sys_package display_value="sand5" source="sn_sand5">a1484cb377223300ca3ab5b2681061ce</sys_package>
@@ -32,12 +33,51 @@
         <sys_scope display_value="sand5">a1484cb377223300ca3ab5b2681061ce</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_bfe9d0fb77223300ca3ab5b268106104</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-16 14:58:31</sys_updated_on>
+        <sys_updated_on>2019-07-16 15:02:21</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
     <sys_translated_text action="delete_multiple" query="documentkey=bfe9d0fb77223300ca3ab5b268106104"/>
     <sys_variable_value action="delete_multiple" query="document_key=bfe9d0fb77223300ca3ab5b268106104"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>bfe9d0fb77223300ca3ab5b268106104</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 15:02:19</sys_created_on>
+        <sys_id>b5abd43f77223300ca3ab5b26810612b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 15:02:19</sys_updated_on>
+        <value>zing</value>
+        <variable display_value="">0eca5cfb77223300ca3ab5b268106181</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bfe9d0fb77223300ca3ab5b268106104"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>customoutput</field>
+        <id>bfe9d0fb77223300ca3ab5b268106104</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 15:02:19</sys_created_on>
+        <sys_id>71abd43f77223300ca3ab5b26810612b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 15:02:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_bfe9d0fb77223300ca3ab5b268106104</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>customoutput2</field>
+        <id>bfe9d0fb77223300ca3ab5b268106104</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 15:02:19</sys_created_on>
+        <sys_id>35abd43f77223300ca3ab5b26810612b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 15:02:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_bfe9d0fb77223300ca3ab5b268106104</table>
+        <value>{{step[b2a980a5-4f5e-4f5a-a930-8978ac9b7a11].task}}</value>
+    </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=bfe9d0fb77223300ca3ab5b268106104^sys_idNOT INff5a98fb77223300ca3ab5b268106152"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="foobar">bfe9d0fb77223300ca3ab5b268106104</action>
@@ -105,7 +145,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -165,14 +205,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-16 14:58:31</sys_created_on>
         <sys_id>0eca5cfb77223300ca3ab5b268106181</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="sand5">a1484cb377223300ca3ab5b2681061ce</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-16 14:58:31</sys_updated_on>
+        <sys_updated_on>2019-07-16 15:02:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -188,7 +228,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -213,7 +253,7 @@
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <element>customoutput2</element>
-        <element_prototype/>
+        <element_prototype display_value="Task" element="task" name="var__m_sys_flow_step_definition_output_07973e960b233200cbd9e240e0ea604e">9f0b036353233200f5bf435723dc3475</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -248,14 +288,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-16 14:58:31</sys_created_on>
         <sys_id>ceca5cfb77223300ca3ab5b26810618a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="sand5">a1484cb377223300ca3ab5b2681061ce</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-16 14:58:31</sys_updated_on>
+        <sys_updated_on>2019-07-16 15:02:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -380,17 +420,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="foobar">bfe9d0fb77223300ca3ab5b268106104</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"e06ad8fb77223300ca3ab5b268106112","name":"plan"}}</plan>
-        <snapshot>586a98fb77223300ca3ab5b2681061b4</snapshot>
+        <snapshot>0aabd43f77223300ca3ab5b268106177</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-16 14:56:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e06ad8fb77223300ca3ab5b268106112</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-16 14:56:46</sys_updated_on>
+        <sys_updated_on>2019-07-16 15:02:21</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -406,6 +446,7 @@
         <label_cache>[{"name":"{{step[b2a980a5-4f5e-4f5a-a930-8978ac9b7a11].task}}","label":"step➛Create Task step➛Incident Record","type":"step","ref":"incident"}]</label_cache>
         <master>true</master>
         <name>foobar</name>
+        <outputs/>
         <outputs/>
         <parent_action display_value="foobar">bfe9d0fb77223300ca3ab5b268106104</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
@@ -428,6 +469,45 @@
     </sys_hub_action_type_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=5c6a98fb77223300ca3ab5b2681061bd"/>
     <sys_variable_value action="delete_multiple" query="document_key=5c6a98fb77223300ca3ab5b2681061bd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>5c6a98fb77223300ca3ab5b2681061bd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 15:02:21</sys_created_on>
+        <sys_id>daabd43f77223300ca3ab5b2681061b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 15:02:21</sys_updated_on>
+        <value>zing</value>
+        <variable display_value="">5eabd43f77223300ca3ab5b2681061a2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5c6a98fb77223300ca3ab5b2681061bd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>customoutput</field>
+        <id>5c6a98fb77223300ca3ab5b2681061bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 15:02:21</sys_created_on>
+        <sys_id>96abd43f77223300ca3ab5b2681061b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 15:02:21</sys_updated_on>
+        <table>var__m_sys_hub_action_output_5c6a98fb77223300ca3ab5b2681061bd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>customoutput2</field>
+        <id>5c6a98fb77223300ca3ab5b2681061bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 15:02:21</sys_created_on>
+        <sys_id>5aabd43f77223300ca3ab5b2681061b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 15:02:21</sys_updated_on>
+        <table>var__m_sys_hub_action_output_5c6a98fb77223300ca3ab5b2681061bd</table>
+        <value>{{step[b2a980a5-4f5e-4f5a-a930-8978ac9b7a11].task}}</value>
+    </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=5c6a98fb77223300ca3ab5b2681061bd^sys_idNOT INd06a98fb77223300ca3ab5b2681061bf"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="foobar">5c6a98fb77223300ca3ab5b2681061bd</action>
@@ -490,6 +570,173 @@
         <table>var__m_sys_flow_step_definition_input_07973e960b233200cbd9e240e0ea604e</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_action_output action="delete_multiple" query="model=5c6a98fb77223300ca3ab5b2681061bd^sys_idNOT IN5eabd43f77223300ca3ab5b2681061a2,d6abd43f77223300ca3ab5b2681061a8"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>customoutput</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>customoutput1</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="foobar">5c6a98fb77223300ca3ab5b2681061bd</model>
+        <model_id>5c6a98fb77223300ca3ab5b2681061bd</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_5c6a98fb77223300ca3ab5b2681061bd</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 15:02:20</sys_created_on>
+        <sys_id>5eabd43f77223300ca3ab5b2681061a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="sand5">a1484cb377223300ca3ab5b2681061ce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 15:02:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>customoutput2</element>
+        <element_prototype display_value="Task" element="task" name="var__m_sys_flow_step_definition_output_07973e960b233200cbd9e240e0ea604e">9f0b036353233200f5bf435723dc3475</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>customoutput2</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="foobar">5c6a98fb77223300ca3ab5b2681061bd</model>
+        <model_id>5c6a98fb77223300ca3ab5b2681061bd</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_5c6a98fb77223300ca3ab5b2681061bd</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 15:02:21</sys_created_on>
+        <sys_id>d6abd43f77223300ca3ab5b2681061a8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="sand5">a1484cb377223300ca3ab5b2681061ce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 15:02:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=5c6a98fb77223300ca3ab5b2681061bd^sys_idNOT INd06a98fb77223300ca3ab5b2681061bf"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="foobar">5c6a98fb77223300ca3ab5b2681061bd</action>
@@ -552,4 +799,51 @@
         <table>var__m_sys_flow_step_definition_input_07973e960b233200cbd9e240e0ea604e</table>
         <value/>
     </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_5c6a98fb77223300ca3ab5b2681061bd^sys_idNOT IN1eabd43f77223300ca3ab5b2681061ac,5aabd43f77223300ca3ab5b2681061a7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>customoutput2</element>
+        <help/>
+        <hint/>
+        <label>customoutput2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_5c6a98fb77223300ca3ab5b2681061bd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 15:02:21</sys_created_on>
+        <sys_id>1eabd43f77223300ca3ab5b2681061ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>customoutput2</sys_name>
+        <sys_package display_value="sand5" source="sn_sand5">a1484cb377223300ca3ab5b2681061ce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sand5">a1484cb377223300ca3ab5b2681061ce</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5c6a98fb77223300ca3ab5b2681061bd_customoutput2_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 15:02:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>customoutput</element>
+        <help/>
+        <hint/>
+        <label>customoutput1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_5c6a98fb77223300ca3ab5b2681061bd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 15:02:21</sys_created_on>
+        <sys_id>5aabd43f77223300ca3ab5b2681061a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>customoutput1</sys_name>
+        <sys_package display_value="sand5" source="sn_sand5">a1484cb377223300ca3ab5b2681061ce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sand5">a1484cb377223300ca3ab5b2681061ce</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5c6a98fb77223300ca3ab5b2681061bd_customoutput_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 15:02:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
 </record_update>
