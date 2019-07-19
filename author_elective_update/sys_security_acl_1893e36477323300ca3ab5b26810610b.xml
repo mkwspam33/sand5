@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on sn_sand5_table2</description>
+        <name>sn_sand5_table2</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-19 13:31:11</sys_created_on>
+        <sys_id>1893e36477323300ca3ab5b26810610b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_sand5_table2</sys_name>
+        <sys_package display_value="sand5" source="sn_sand5">a1484cb377223300ca3ab5b2681061ce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sand5">a1484cb377223300ca3ab5b2681061ce</sys_scope>
+        <sys_update_name>sys_security_acl_1893e36477323300ca3ab5b26810610b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-19 13:31:11</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="sand5">a1484cb377223300ca3ab5b2681061ce</application>
+        <file_path/>
+        <instance_id>evosandbox8080</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_security_acl_1893e36477323300ca3ab5b26810610b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on sn_sand5_table2</description><name>sn_sand5_table2</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-07-19 13:31:11</sys_created_on><sys_id>1893e36477323300ca3ab5b26810610b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_sand5_table2</sys_name><sys_package display_value="sand5" source="sn_sand5">a1484cb377223300ca3ab5b2681061ce</sys_package><sys_policy/><sys_scope display_value="sand5">a1484cb377223300ca3ab5b2681061ce</sys_scope><sys_update_name>sys_security_acl_1893e36477323300ca3ab5b26810610b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-07-19 13:31:11</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1531413284</payload_hash>
+        <record_name>sn_sand5_table2</record_name>
+        <reverted_from/>
+        <source>c36334f777623300ca3ab5b26810611f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-19 13:31:11</sys_created_on>
+        <sys_id>1093e36477323300ca3ab5b26810610e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16c0a6de9870000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-19 13:31:11</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>5893e364403233000caacb1a5bc6b10d</update_guid>
+        <update_guid_history>5893e364403233000caacb1a5bc6b10d:1531413284</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-19 13:32:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>23a8942511b440c388689c9bf9b89579</sys_id>
+        <sys_metadata>1893e36477323300ca3ab5b26810610b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_sand5_table2</sys_name>
+        <sys_package display_value="sand5" source="sn_sand5">a1484cb377223300ca3ab5b2681061ce</sys_package>
+        <sys_parent display_value="">1093e36477323300ca3ab5b268106122</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="sand5">a1484cb377223300ca3ab5b2681061ce</sys_scope>
+        <sys_scope_delete display_value="">2ff3db85b32c4460950ea204d5894ac4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_1893e36477323300ca3ab5b26810610b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_1893e36477323300ca3ab5b26810610b">1093e36477323300ca3ab5b26810610e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-19 13:32:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
