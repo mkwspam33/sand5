@@ -46,7 +46,7 @@ xd1.prototype = {
         <reverted_from/>
         <source>ad7298b777223300ca3ab5b268106148</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-16 16:45:03</sys_created_on>
         <sys_id>7223b0b777623300ca3ab5b2681061f0</sys_id>

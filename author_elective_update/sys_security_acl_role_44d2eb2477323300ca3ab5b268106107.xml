@@ -42,7 +42,7 @@
         <update_guid_history>44d2eb24c132330016a9e2e0c7774f09:1661831968</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="sn_sand5_deltable.sn_sand5.deltable_user">f1f26f2477323300ca3ab5b2681061a3</sys_audit_delete>
+        <sys_audit_delete display_value="">f1f26f2477323300ca3ab5b2681061a3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-19 13:28:33</sys_created_on>

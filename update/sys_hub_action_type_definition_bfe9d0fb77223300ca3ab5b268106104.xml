@@ -16,6 +16,7 @@
         <latest_snapshot>64fb983f77223300ca3ab5b2681061e5</latest_snapshot>
         <master_snapshot>5c6a98fb77223300ca3ab5b2681061bd</master_snapshot>
         <name>foobar</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <state>published</state>
@@ -446,6 +447,7 @@
         <label_cache>[{"name":"{{step[b2a980a5-4f5e-4f5a-a930-8978ac9b7a11].task}}","label":"step➛Create Task step➛Incident Record","type":"step","ref":"incident"}]</label_cache>
         <master>true</master>
         <name>foobar</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <parent_action display_value="foobar">bfe9d0fb77223300ca3ab5b268106104</parent_action>
